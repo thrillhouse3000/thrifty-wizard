@@ -1,0 +1,10 @@
+.DealsList-header {
+    /* background: rgb(64,64,64);
+    background: linear-gradient(0deg, rgba(64,64,64,1) 0%, rgba(15,15,15,1) 100%);  */
+    background-color: black;
+    border-radius: 10px;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

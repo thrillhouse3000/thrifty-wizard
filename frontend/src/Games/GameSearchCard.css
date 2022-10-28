@@ -1,0 +1,4 @@
+div.GameCard:hover {
+    background-color: rgb(98, 98, 98) !important;
+    transition: all 0.5s ease;
+}

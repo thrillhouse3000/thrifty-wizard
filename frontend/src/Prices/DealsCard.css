@@ -1,0 +1,24 @@
+.DealsCard {
+    color: white;
+    background: rgb(64,64,64);
+    background: linear-gradient(0deg, rgba(64,64,64,1) 0%, rgba(15,15,15,1) 100%); 
+}
+
+.DealsCard-discount {
+    color: black;
+    font-weight: bold;
+    background: rgb(186,255,33);
+    background: linear-gradient(0deg, rgba(186,255,33,0.9) 10%, rgba(79,255,2,1) 100%);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+.DealsCard-basePrice {
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.DealsCard-discountPrice {
+    font-weight: bold;
+    margin: 0;
+}
