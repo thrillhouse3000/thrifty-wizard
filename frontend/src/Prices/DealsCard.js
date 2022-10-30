@@ -5,7 +5,7 @@ const DealsCard = ({deal}) => {
         <div className="DealsCard card d-flex align-items-center" style={{height: "max-content"}}>
             <div className="row g-0" style={{width: "100%"}}>
                 <div className="col-3">
-                    <a href={deal.link}>
+                    <a href={`/${deal.game_slug}`}>
                         <img src={deal.img_lg ? deal.img_lg : deal.img_sm} className="img-fluid rounded-start" style={{height: "100%"}} alt="..." />
                     </a>
                 </div>

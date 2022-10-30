@@ -7,7 +7,7 @@ const { NotFoundError } = require("../expressError");
 class Price {
     //pass the ORDER BY parameters as `column ASC/DESC` (ex: `base_price DESC`) to modify the results
     static queryStr = (orderByStr) => {
-        return `SELECT g.game_name, g.img_sm, g.img_lg, s.store_name, s.store_logo, s.store_url, p.link, p.base_price, p.discount, p.discount_price, p.last_modified
+        return `SELECT g.game_name, g.game_slug, g.img_sm, g.img_lg, s.store_name, s.store_logo, s.store_url, p.link, p.base_price, p.discount, p.discount_price, p.last_modified
         FROM prices AS p
         JOIN games AS g
         ON p.game_slug = g.game_slug
