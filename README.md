@@ -1,6 +1,6 @@
 # Thrifty_Wizard
 
-This project was created with React, Node.js, PostgreSQL and Scrapy.
+This project was created with React, Node.js, PostgreSQL and Scrapy. The custom built Scrapy spiders run on a daily basis and upload to the database.
 
 ## Frontend
 
